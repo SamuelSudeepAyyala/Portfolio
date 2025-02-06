@@ -2,12 +2,11 @@
     "name": "hello-world-angularjs",
     "version": "1.0.0",
     "scripts": {
-        "build": "webpack"
-    },
-    "dependencies": {
-        "angular": "^1.8.2",
         "build": "ng build --prod",
         "deploy": "gh-pages -d dist"
+    },
+    "dependencies": {
+        "angular": "^1.8.2"
     },
     "devDependencies": {
         "typescript": "^4.5.5",
