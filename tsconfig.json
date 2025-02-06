@@ -1,8 +1,17 @@
 {
     "compilerOptions": {
-        "target": "ES5",
-        "module": "CommonJS",
-        "outDir": "./dist",
-        "strict": true
-    }
-}
+      "target": "ES5",                 // AngularJS works with ES5
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "outDir": "./dist",
+      "sourceMap": true,
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "types": ["angular"]
+    },
+    "include": [
+      "app/**/*.ts"  // Adjust to the location of your TypeScript files
+    ]
+  }
+  
