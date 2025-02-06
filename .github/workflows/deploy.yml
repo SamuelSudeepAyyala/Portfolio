@@ -28,6 +28,7 @@ jobs:
         run: |
           npm install
           npm install --save-dev @types/angular
+          npm install --save gh-pages
           
 
       # Step 4: Build the project
@@ -38,7 +39,6 @@ jobs:
       # Step 5: Deploy to GitHub Pages using gh-pages
       - name: Deploy to GitHub Pages
         run: |
-          npm install --save gh-pages
           npm run deploy
 
       # Step 6: Done
